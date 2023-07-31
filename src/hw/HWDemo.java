@@ -13,4 +13,7 @@ public class HWDemo {
 	public static void getWeather() {
 		System.out.println("Today is sunny");
 	} 
+	public static void numFav( boolean a) {
+		System.out.println("true");
+	}
 }
