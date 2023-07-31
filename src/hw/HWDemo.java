@@ -9,4 +9,8 @@ public class HWDemo {
 	public static void fun(String a) {
 		System.out.println("Java is fun!");
 	}
+	
+	public static void getWeather() {
+		System.out.println("Today is sunny");
+	} 
 }
