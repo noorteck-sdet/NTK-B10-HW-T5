@@ -16,4 +16,8 @@ public class HWDemo {
 	public static void numFav( boolean a) {
 		System.out.println("true");
 	}
+	
+	public static void getDate() {
+		System.out.println("Monday");
+	}
 }
