@@ -40,4 +40,7 @@ public class HWDemo {
 	public static void getDate() {
 		System.out.println("Monday");
 	}
+	public static void getInfo() {
+		System.out.println("Info");
+	}
 }
