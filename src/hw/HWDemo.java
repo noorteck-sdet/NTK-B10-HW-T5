@@ -1,6 +1,7 @@
 package hw;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class HWDemo {
 
@@ -17,6 +18,11 @@ public class HWDemo {
 
 		System.out.println("Team5: " + teamList);
 		System.out.println("Team Size: " + teamList.size());
+
+		HashMap<String, String> stateMap = new HashMap<String, String>();	
+		stateMap.put("VA", "Virginia");
+		stateMap.put("NY", "New York");
+             System.out.println(stateMap);
 	}
 
 	public static void fun(String a) {
