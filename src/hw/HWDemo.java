@@ -19,10 +19,18 @@ public class HWDemo {
 		System.out.println("Team5: " + teamList);
 		System.out.println("Team Size: " + teamList.size());
 
-		HashMap<String, String> stateMap = new HashMap<String, String>();	
+		HashMap<String, String> stateMap = new HashMap<String, String>();
 		stateMap.put("VA", "Virginia");
 		stateMap.put("NY", "New York");
-             System.out.println(stateMap);
+		System.out.println(stateMap);
+
+		stateMap.put("FL", "Florida");
+		System.out.println(stateMap);
+		
+		HashMap<String, Double> priceMap = new HashMap<String, Double>();
+		priceMap.put("Iphone", 999.99);
+		priceMap.put("MacBook", 1999.99);
+		System.out.println(priceMap.get("Iphone"));
 	}
 
 	public static void fun(String a) {
@@ -46,6 +54,7 @@ public class HWDemo {
 	public static void getDate() {
 		System.out.println("Monday");
 	}
+
 	public static void getInfo() {
 		System.out.println("Info");
 	}
