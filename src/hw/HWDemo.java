@@ -22,15 +22,14 @@ public class HWDemo {
 		HashMap<String, String> stateMap = new HashMap<String, String>();
 		stateMap.put("VA", "Virginia");
 		stateMap.put("NY", "New York");
-		System.out.println(stateMap);
-
 		stateMap.put("FL", "Florida");
+		stateMap.put("AZ", "Arizona");
 		System.out.println(stateMap);
 
 		HashMap<String, Double> priceMap = new HashMap<String, Double>();
 		priceMap.put("Iphone", 999.99);
 		priceMap.put("MacBook", 1999.99);
-		System.out.println(priceMap.get("Iphone"));
+		System.out.println("Iphone price: " + priceMap.get("Iphone"));
 
 		ArrayList<String> teamLectures = new ArrayList<String>();
 
@@ -47,13 +46,12 @@ public class HWDemo {
 		teamLectures.add("API");
 
 		System.out.println("Team5: " + teamLectures);
-		
-		fun("Java");
-		numFav(true);
 
-		
+		String arr[] = { "Java", "Git", "SQL" };
+		System.out.println(arr[1]);
+
 		ArrayList<String> daysOfTheWeek = new ArrayList<String>();
-		
+
 		daysOfTheWeek.add("Monday");
 		daysOfTheWeek.add("Tuesday");
 		daysOfTheWeek.add("Wednesday");
@@ -61,8 +59,18 @@ public class HWDemo {
 		daysOfTheWeek.add("Friday");
 		daysOfTheWeek.add("Saturday");
 		daysOfTheWeek.add("Sunday");
-		
+
 		System.out.println("Days of the Week: " + daysOfTheWeek);
+
+		fun("Java");
+		getWeather();
+		numFav(true);
+		car("Toyota");
+		getDate();
+		getInfo("Santana", "Tucson");
+		getColor();
+		favPhone("Iphone");
+		gator();
 	}
 
 	public static void fun(String a) {
@@ -78,15 +86,15 @@ public class HWDemo {
 	}
 
 	public static void car(String make) {
-		System.out.println("Toyota");
+		System.out.println(make);
 	}
 
 	public static void getDate() {
-		System.out.println("Monday");
+		System.out.println("Tuesday");
 	}
 
 	public static void getInfo(String lastName, String city) {
-		System.out.println(lastName + "lives in " + city);
+		System.out.println(lastName + " lives in " + city);
 	}
 
 	public static void getColor() {
@@ -96,8 +104,8 @@ public class HWDemo {
 	public static void favPhone(String device) {
 		System.out.println(device);
 	}
-	
-	public static void gator () {
+
+	public static void gator() {
 		System.out.println("Gator");
 		
 		/*
