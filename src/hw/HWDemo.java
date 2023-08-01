@@ -39,23 +39,9 @@ public class HWDemo {
 
 	public static void getWeather() {
 		System.out.println("Today is sunny");
-	}
-
-	public static void numFav(boolean a) {
-		System.out.println("true");
-
-	}
-
-	public static void car() {
-		System.out.println("Toyota");
-
-	}
-
-	public static void getDate() {
-		System.out.println("Monday");
-	}
-
-	public static void getInfo() {
-		System.out.println("Info");
-	}
+	} 
+	
+	public static void getColor() {
+		System.out.println("RED");
+	} 
 }
