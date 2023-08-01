@@ -77,7 +77,7 @@ public class HWDemo {
 		System.out.println(a);
 	}
 
-	public static void car() {
+	public static void car(String make) {
 		System.out.println("Toyota");
 	}
 
@@ -85,16 +85,16 @@ public class HWDemo {
 		System.out.println("Monday");
 	}
 
-	public static void getInfo() {
-		System.out.println("Info");
+	public static void getInfo(String lastName, String city) {
+		System.out.println(lastName + "lives in " + city);
 	}
 
 	public static void getColor() {
 		System.out.println("RED");
 	}
 
-	public static void favPhone() {
-		System.out.println("iphone");
+	public static void favPhone(String device) {
+		System.out.println(device);
 	}
 	
 	public static void gator () {
