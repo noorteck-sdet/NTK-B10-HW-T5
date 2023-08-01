@@ -48,6 +48,18 @@ public class HWDemo {
 
 		System.out.println("Team5: " + teamLectures);
 
+		
+		ArrayList<String> daysOfTheWeek = new ArrayList<String>();
+		
+		daysOfTheWeek.add("Monday");
+		daysOfTheWeek.add("Tuesday");
+		daysOfTheWeek.add("Wednesday");
+		daysOfTheWeek.add("Thursday");
+		daysOfTheWeek.add("Friday");
+		daysOfTheWeek.add("Saturday");
+		daysOfTheWeek.add("Sunday");
+		
+		System.out.println("Days of the Week: " + daysOfTheWeek);
 	}
 
 	public static void fun(String a) {
