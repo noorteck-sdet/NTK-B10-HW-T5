@@ -62,4 +62,7 @@ public class HWDemo {
 	public static void getColor() {
 		System.out.println("RED");
 	} 
+	public static void favPhone () {
+		System.out.println("iphone");
+	}
 }
