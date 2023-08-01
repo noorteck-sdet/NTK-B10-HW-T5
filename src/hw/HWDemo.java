@@ -32,6 +32,24 @@ public class HWDemo {
 		priceMap.put("MacBook", 1999.99);
 		System.out.println(priceMap.get("Iphone"));
 	}
+	
+	public static void numFav(boolean a) {
+		System.out.println("true");
+
+	}
+
+	public static void car() {
+		System.out.println("Toyota");
+
+	}
+
+	public static void getDate() {
+		System.out.println("Monday");
+	}
+
+	public static void getInfo() {
+		System.out.println("Info");
+	}
 
 	public static void fun(String a) {
 		System.out.println("Java is fun!");
