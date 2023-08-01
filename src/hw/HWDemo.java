@@ -47,6 +47,9 @@ public class HWDemo {
 		teamLectures.add("API");
 
 		System.out.println("Team5: " + teamLectures);
+		
+		fun("Java");
+		numFav(true);
 
 		
 		ArrayList<String> daysOfTheWeek = new ArrayList<String>();
@@ -63,7 +66,7 @@ public class HWDemo {
 	}
 
 	public static void fun(String a) {
-		System.out.println("Java is fun!");
+		System.out.println(a + " is fun!");
 	}
 
 	public static void getWeather() {
@@ -71,7 +74,7 @@ public class HWDemo {
 	}
 
 	public static void numFav(boolean a) {
-		System.out.println("true");
+		System.out.println(a);
 	}
 
 	public static void car() {
